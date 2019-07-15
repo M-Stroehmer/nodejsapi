@@ -1,0 +1,35 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+article {
+  margin-top: 30px;
+}
+
+article > h2 {
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+
+article > p {
+  color: #333;
+  margin: 5px 0;
+}
+
+article > time {
+  font-size: 80%;
+}

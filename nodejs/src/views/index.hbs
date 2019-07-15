@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+
+<ul>
+{{#each entries}}
+  <li>
+    <article>
+      <h2>{{this.titel}}</h2>
+      <p>{{this.anrisstext}}</p>
+      <time title="{{this.date}}" datetime="{{this.datum}}">{{this.dateRelative}}</time>
+    </article>
+  </li>
+{{/each}}
+</ul>
